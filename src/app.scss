@@ -14,18 +14,18 @@
         }
         //style the track
         &::-webkit-scrollbar-track {
-            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+            -webkit-box-shadow: inset 0 0 6px rgba(56, 13, 70, 0.3); 
             -webkit-border-radius: 10px;
             border-radius: 10px;
         }
         //style the handle of the scrollbar
         &::-webkit-scrollbar-thumb {
-            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+            -webkit-box-shadow: inset 0 0 6px rgba(170, 37, 37, 0.3); 
             -webkit-border-radius: 10px;
             border-radius: 10px;
         }
         &::-webkit-scrollbar-thumb:window-inactive {
-            background: rgba(255,0,0,0.6);
+            background: rgba(45, 21, 77, 0.6);
         }
 
         > * {
