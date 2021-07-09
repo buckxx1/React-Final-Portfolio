@@ -4,7 +4,7 @@ import {Portrait, Mail} from "@material-ui/icons"
 
 export default function Topbar() {
     return (
-        <div className="topbar active">
+        <div className={"topbar active"}>
             <div className="wrapper">
                 <div className="left">
                     <a href="#id-intro" classname="logo"> Nick Hoban</a>
