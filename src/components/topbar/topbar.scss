@@ -38,7 +38,7 @@
         
         .logo{
             display: flex;
-            
+            transition: 1.5s ease;
             font-weight: 700;
             text-decoration: none;
             color: inherit;
@@ -68,7 +68,22 @@
     &.active {
         background-color: $mainColor;
         color: white;
-        
+
+        .hamburger {
+            .span{
+                &:first-child{
+                    background-color: white;
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:last-child{
+                    background-color: white;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
     }
 
    
