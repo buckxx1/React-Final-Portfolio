@@ -1,32 +1,25 @@
 import React from 'react'
 import "./topbar.scss"
-import {Portrait, Mail} from "@material-ui/icons"
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+// import NavDropdown from 'react-bootstrap/NavDropdown'
+// import DropdownButton from 'react-bootstrap/DropdownButton'
+// import SplitButton from 'react-bootstrap/SplitButton'
+// import Dropdown from 'react-bootstrap/Dropdown'
 
-export default function Topbar({ menuOpen, setMenuOpen}) {
+
+export default function Topbar() {
     return (
-        <div className={"topbar " + (menuOpen && "active")}>
-            <div className="wrapper">
-                <div className="left">
-                    <a href="#id-intro" classname="logo"> Nick Hoban</a>
-                    <div className="itemContainer">
-                        <Portrait className="icon" />
-                        <span>416-833-4751</span>
-                    </div>
-                    <div className="itemContainer">
-                        <Mail className="icon"/>
-                        <span>nickh1888@gmail.com</span>
-                    </div>
-                </div>
-                <div className="right">
-                    <div className="hamburger" onClick={()=> setMenuOpen(!menuOpen)}>
-                        <span className="line1"></span>
-                        <span className="line2"></span>
-                        <span className="line3"></span>
-                    </div>
-                </div>
-            </div>
+        <Navbar className=" topBar" bg="dark" variant="dark">
+            <Navbar.Brand>Nick Hoban</Navbar.Brand>
             
-                
-        </div>
+            <Nav className="mr-auto">
+                <Nav.Link href="#Intro">Intro</Nav.Link>
+                <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
+                <Nav.Link href="#Works">Works</Nav.Link>
+                <Nav.Link href="#Contact">Contact</Nav.Link>
+            </Nav>
+            
+        </Navbar>
     )
 }

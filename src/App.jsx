@@ -7,21 +7,30 @@ import Works from "./components/works/works"
 //this is the scss file for this app.jsx
 import "./app.scss"
 //import use state
-import { useState } from "react";
-import Menu from "./components/menu/menu"
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
 
 function App() {
-  const [menuOpen,setMenuOpen] = useState(false)
+  
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Menu/>
-      <div className="sections">
-        <Intro/>
-        <Portfolio/>
-        <Works/>
-        <Contact/>
-      </div>
+      <Topbar />
+      
+      <Container fluid>
+        <Row>
+          <Col>
+            <div className="sections">
+              <Intro/>
+              <Portfolio/>
+              <Works/>
+              <Contact/>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      
 
     </div>
   );
