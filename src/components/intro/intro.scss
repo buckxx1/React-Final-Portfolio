@@ -15,10 +15,12 @@
           .imgContainer {
                width: 300px;
                height: auto;
-               background-color: $highlight;
+               background-color: $lightTheme;
                display: flex;
                align-items: center;
                justify-content: center;
+               border-radius: 5px;
+               padding-left: 15px;
                
                .img{
                     display: block;
@@ -26,6 +28,7 @@
                     margin-right: auto;
                     margin-bottom: 0px;
                     width: 30%;
+                    border-radius: 5px;
                }
 
           }
@@ -68,4 +71,5 @@
                
           }
      }
+     
 }
