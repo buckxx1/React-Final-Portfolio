@@ -10,7 +10,8 @@ import Nav from 'react-bootstrap/Nav'
 
 export default function Topbar() {
     return (
-        <Navbar className=" topBar" bg="dark" variant="dark">
+        
+        <Navbar  bg="dark" variant="dark" fixed="top">
             <Navbar.Brand>Nick Hoban</Navbar.Brand>
             
             <Nav className="mr-auto">

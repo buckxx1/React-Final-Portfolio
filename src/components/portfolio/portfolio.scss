@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
     h1 {
         font-size: 50px;
@@ -48,6 +49,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        padding-bottom: 40px;
 
         .item{
             width: 350px;
@@ -60,22 +62,48 @@
             justify-content: center;
             position: relative;
             color: white;
+            text-shadow: 2px 2px #2f1550;
             transition: 0.5s ease;
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;      
-                z-index: 1;       
-            }
-            h3{
+            background-color: $highlight;
+            z-index: 3;
+            
+            // h3{
                 
-                position: absolute;
-                font-size: 20px;
-            }
-            &:hover{
-                background-color: $mainColor;
-                z-index: 0;
-            }
+            //     position: absolute;
+            //     align-items: center;
+            //     justify-content: center;
+            //     font-size: 20px;
+            //     background-color: $highlight;
+                
+            // }
+            
+            
+            
+        }
+        #item1{
+            background-image: url("../../assets/project-images/travel.map.png");
+            background-size: 350px 350px;
+        }
+
+        #item2{
+            background-image: url("../../assets/project-images/tutor-question.png");
+            background-size: 350px 350px;
+        }
+        #item3{
+            background-image: url("../../assets/project-images/dailyplanner.png");
+            background-size: 350px 350px;
+        }
+        #item4{
+            background-image: url("../../assets/project-images/forcast-master.png");
+            background-size: 350px 350px;
+        }
+        #item5{
+            background-image: url("../../assets/project-images/notetaker-2.png");
+            background-size: 350px 350px;
+        }
+        #item6{
+            background-image: url("../../assets/project-images/codequiz.png");
+            background-size: 350px 350px;
         }
     } 
 }

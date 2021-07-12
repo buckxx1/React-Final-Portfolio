@@ -3,7 +3,7 @@ import Topbar from "./components/topbar/topbar"
 import Intro from "./components/intro/intro"
 import Contact from "./components/contact/contact"
 import Portfolio from "./components/portfolio/portolio"
-import Works from "./components/works/works"
+import Skills from "./components/skills/works"
 //this is the scss file for this app.jsx
 import "./app.scss"
 //import use state
@@ -24,7 +24,7 @@ function App() {
             <div className="sections">
               <Intro/>
               <Portfolio/>
-              <Works/>
+              <Skills/>
               <Contact/>
             </div>
           </Col>

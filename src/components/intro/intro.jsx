@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+
 import "./intro.scss";
 
 
@@ -8,7 +8,7 @@ export default function Intro() {
         <div className="intro" id="id-intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/nick-profile-image.jpg" alt="me"></img>
+                    <img src="../src/assets/nick-profile-image.jpg" alt="me"></img>
                 </div>
             </div>
             <div className="right">
