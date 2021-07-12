@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from "../contact/contact"
 import "./portfolio.scss"
 
 export default function Portfolio() {
@@ -59,6 +60,8 @@ export default function Portfolio() {
                     <h3>Code Quiz</h3>
                 </div>
             </div>
+            <Contact/>
         </div>
+        
     )
 }

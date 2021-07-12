@@ -2,6 +2,7 @@ import React from 'react'
 import "./topbar.scss"
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import { useState } from 'react'
 // import NavDropdown from 'react-bootstrap/NavDropdown'
 // import DropdownButton from 'react-bootstrap/DropdownButton'
 // import SplitButton from 'react-bootstrap/SplitButton'
@@ -9,16 +10,18 @@ import Nav from 'react-bootstrap/Nav'
 
 
 export default function Topbar() {
+
+    const [isToggled, setIsToggled] = useState(false);
     return (
         
         <Navbar  className="navBar" bg="dark" variant="dark" fixed="top">
             <Navbar.Brand>Nick Hoban</Navbar.Brand>
             
             <Nav className="mr-auto">
-                <Nav.Link href="#Intro">Intro</Nav.Link>
-                <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
-                <Nav.Link href="#Works">Works</Nav.Link>
-                <Nav.Link href="#Contact">Contact</Nav.Link>
+                {/* <button onClick={() => setIsToggled(!isToggled)}>Intro</button>{isToggled &&   } */}
+                <button>Portfolio</button>
+                <button>Skills</button>
+                <button>Contact</button>
             </Nav>
             
         </Navbar>

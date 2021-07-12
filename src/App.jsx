@@ -1,7 +1,7 @@
 //import all components
 import Topbar from "./components/topbar/topbar"
 import Intro from "./components/intro/intro"
-import Contact from "./components/contact/contact"
+
 import Portfolio from "./components/portfolio/portolio"
 import Skills from "./components/skills/works"
 //this is the scss file for this app.jsx
@@ -12,8 +12,15 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 
+import { useState } from 'react'
+
+ 
+
+
 function App() {
+
   
+
   return (
     <div className="app">
       <Topbar />
@@ -23,9 +30,9 @@ function App() {
           <Col>
             <div className="sections">
               <Intro/>
-              <Portfolio/>
-              <Skills/>
-              <Contact/>
+              {<Portfolio/>}
+              {<Skills/>}
+              
             </div>
           </Col>
         </Row>

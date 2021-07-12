@@ -1,7 +1,7 @@
 
 import "./intro.scss";
 import myphoto from "../../assets/nick-profile-image.jpg"
-import downarrow from "../../assets/down.png"
+
 
 
 export default function Intro() {

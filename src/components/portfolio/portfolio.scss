@@ -106,4 +106,14 @@
             background-size: 350px 350px;
         }
     } 
+    .bottombar{
+        padding: 0px 0px 0px 0px !important;
+        .bottom{
+            color: white;
+            background-color: $lightTheme !important;
+            width: 100% !important;
+            display: flex !important;
+            justify-content: space-evenly !important;
+        }
+    }
 }
