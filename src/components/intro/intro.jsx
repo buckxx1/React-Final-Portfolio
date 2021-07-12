@@ -1,5 +1,7 @@
 
 import "./intro.scss";
+import myphoto from "../../assets/nick-profile-image.jpg"
+import downarrow from "../../assets/down.png"
 
 
 export default function Intro() {
@@ -8,7 +10,7 @@ export default function Intro() {
         <div className="intro" id="id-intro">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="../src/assets/nick-profile-image.jpg" alt="me"></img>
+                    <img src={myphoto} alt=""></img>
                 </div>
             </div>
             <div className="right">
@@ -18,7 +20,7 @@ export default function Intro() {
                     <h3>Aspiring <span> Developer</span> </h3>
                 </div>
                 <a href="#portfolio">
-                    <img  src="assets/down.png" alt="down" width="70px"/>
+                    <img  src={downarrow} alt="down" width="70px"/>
                 </a>
 
             </div>

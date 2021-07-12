@@ -4,20 +4,33 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { Container } from 'react-bootstrap'
 
+import gmaillogo from '../../assets/gmail.png' 
+import githublogo from "../../assets/GitHubs.png"
+import instagramlogo from '../../assets/instagram.png'
+
 export default function Contact() {
     return (
         <Navbar  bg="dark" variant="dark" >
-            <Navbar.Brand>Contact Information</Navbar.Brand>
             
-            <Nav className="mr-auto">
-                <Container>
-                    <img src="../../src/assets/logo-gmail-9951.png" alt=""/>
+            
+            <Nav className="bottom">
+                <Container id="contactinfo">
+                    Contact Info
                 </Container>
-                <Nav.Link >nickh1888@gmail.com</Nav.Link>
-                <Nav.Link >https://github.com/buckxx1</Nav.Link>
-                
+                <Container>
+                    <img src={gmaillogo} alt="" height="50px"/>nickh1888@gmail.com
+                </Container>
+                <Container>
+                    <img src={githublogo} alt="" width="50px"/>https://github.com/buckxx1
+                </Container>
+                <Container>
+                    <img src={instagramlogo} alt="" width="50px"/>https://www.instagram.com/nickhoban188/?hl=en
+                </Container>
+                <Nav.Link ></Nav.Link>
+                <Nav.Link ></Nav.Link>   
             </Nav>
             
         </Navbar>
+        
     )
 }
