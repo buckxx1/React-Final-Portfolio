@@ -2,5 +2,16 @@
 .contact{
     background-color: rgb(55, 98, 112);
 
-
+    
+}
+.bottombar{
+    padding: 0px 0px 0px 0px !important;
+    .bottom{
+        color: white;
+        background-color: $lightTheme !important;
+        width: 100% !important;
+        #Contaner{
+            padding: 5px 5px !important;
+        }
+    }
 }

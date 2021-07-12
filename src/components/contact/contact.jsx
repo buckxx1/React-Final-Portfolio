@@ -10,7 +10,7 @@ import instagramlogo from '../../assets/instagram.png'
 
 export default function Contact() {
     return (
-        <Navbar  bg="dark" variant="dark" >
+        <Navbar className="bottombar" bg="dark" variant="dark" >
             
             
             <Nav className="bottom">
