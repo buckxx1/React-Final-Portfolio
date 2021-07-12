@@ -10,8 +10,7 @@
         color: white;
         background-color: $lightTheme !important;
         width: 100% !important;
-        #Contaner{
-            padding: 5px 5px !important;
-        }
+        display: flex !important;
+        justify-content: space-evenly !important;
     }
 }

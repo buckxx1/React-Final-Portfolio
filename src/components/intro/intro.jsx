@@ -19,10 +19,7 @@ export default function Intro() {
                     <h1>Nick Hoban</h1>
                     <h3>Aspiring <span> Developer</span> </h3>
                 </div>
-                <a href="#portfolio">
-                    <img  src={downarrow} alt="down" width="70px"/>
-                </a>
-
+                
             </div>
         </div>
     )

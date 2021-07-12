@@ -1,10 +1,9 @@
 //import global css
 @import "../../global.scss";
 
-// #topBar {
-//     position: sticky;
-//     top: 0;
-//     width: 100%;
-    
-
-// }
+.navBar{
+    background-color: $darkTheme !important;
+    .mr-auto{
+        background-color: $darkTheme !important;
+    }
+}

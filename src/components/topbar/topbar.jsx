@@ -11,7 +11,7 @@ import Nav from 'react-bootstrap/Nav'
 export default function Topbar() {
     return (
         
-        <Navbar  bg="dark" variant="dark" fixed="top">
+        <Navbar  className="navBar" bg="dark" variant="dark" fixed="top">
             <Navbar.Brand>Nick Hoban</Navbar.Brand>
             
             <Nav className="mr-auto">
