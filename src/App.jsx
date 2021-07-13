@@ -11,7 +11,7 @@ import "./app.scss"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 
 import { useState } from 'react'
@@ -30,10 +30,13 @@ function App() {
             <Navbar.Brand>Nick Hoban</Navbar.Brand>
             
             <Nav className="mr-auto">
+                <Link to="./Portfolio">
+                  <button type="button">Portfolio</button>   
+                </Link>
+                <Link to="./Skills">          
+                  <button type="button">Skills</button>
+                </Link>
                 
-                <button>Portfolio</button>           
-                <button>Skills</button>
-                <button>Contact</button>
             </Nav>
             
         </Navbar>
@@ -43,8 +46,8 @@ function App() {
             <Col>
               <div className="sections">
                 <Intro/>
-                {<Portfolio/>}
-                {<Skills/>}
+                <Portfolio/>
+                <Skills/>
                 
               </div>
             </Col>
