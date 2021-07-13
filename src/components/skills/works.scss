@@ -3,5 +3,7 @@
     background-color: $darkTheme;
     height: calc(100vh - 70px);
      width: 100%;
-     
+    .contactbar{
+        margin-bottom: 0px !important;
+    }
 }

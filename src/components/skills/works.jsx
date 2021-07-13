@@ -13,7 +13,10 @@ export default function Skills() {
                     
                 </div>
             </div>
+            <div className="contactbar">
             <Contact/>
+            </div>    
         </div>
+        
     )
 }
