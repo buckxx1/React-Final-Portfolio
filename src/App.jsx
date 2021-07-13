@@ -30,12 +30,12 @@ function App() {
             <Navbar.Brand>Nick Hoban</Navbar.Brand>
             
             <Nav className="mr-auto">
-                <Link to="./Portfolio">
+                <a href="#id-portfolio">
                   <button type="button">Portfolio</button>   
-                </Link>
-                <Link to="./Skills">          
+                </a>
+                <a href="#id-works">          
                   <button type="button">Skills</button>
-                </Link>
+                </a>
                 
             </Nav>
             

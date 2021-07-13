@@ -1,9 +1,30 @@
 @import "../../global.scss";
 .works { 
     background-color: $darkTheme;
-    height: calc(100vh - 70px);
-     width: 100%;
+    // height: calc(100vh - 70px);
+    //  width: 100%;
+    position: relative;
+    #id-works {
+        
+        margin-top: 20px !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+        background-color: $highlight !important;
+        border: 2px black !important;
+    }
+    #id-works2{
+        
+        margin-top: 20px !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+        margin-bottom: 50px;
+        background-color: $highlight !important;
+
+    }
     .contactbar{
-        margin-bottom: 0px !important;
+        width: 100% !important;
+        padding-top: 20%px !important;
+        // position: fixed!important;
+        bottom: 0 !important;
     }
 }
