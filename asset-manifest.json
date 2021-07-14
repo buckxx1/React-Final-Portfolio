@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-Final-Portfolio/static/css/main.82ad46c4.chunk.css",
+    "main.js": "/React-Final-Portfolio/static/js/main.d8bf8cdf.chunk.js",
+    "main.js.map": "/React-Final-Portfolio/static/js/main.d8bf8cdf.chunk.js.map",
+    "runtime-main.js": "/React-Final-Portfolio/static/js/runtime-main.4c8356fa.js",
+    "runtime-main.js.map": "/React-Final-Portfolio/static/js/runtime-main.4c8356fa.js.map",
+    "static/css/2.081f420c.chunk.css": "/React-Final-Portfolio/static/css/2.081f420c.chunk.css",
+    "static/js/2.4cdc4801.chunk.js": "/React-Final-Portfolio/static/js/2.4cdc4801.chunk.js",
+    "static/js/2.4cdc4801.chunk.js.map": "/React-Final-Portfolio/static/js/2.4cdc4801.chunk.js.map",
+    "index.html": "/React-Final-Portfolio/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/React-Final-Portfolio/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.82ad46c4.chunk.css.map": "/React-Final-Portfolio/static/css/main.82ad46c4.chunk.css.map",
+    "static/js/2.4cdc4801.chunk.js.LICENSE.txt": "/React-Final-Portfolio/static/js/2.4cdc4801.chunk.js.LICENSE.txt",
+    "static/media/portfolio.scss": "/React-Final-Portfolio/static/media/tutor-question.15bb03ec.png",
+    "static/media/gmail.2cbf3eee.png": "/React-Final-Portfolio/static/media/gmail.2cbf3eee.png",
+    "static/media/instagram.a2d67165.png": "/React-Final-Portfolio/static/media/instagram.a2d67165.png",
+    "static/media/nick-profile-image.baae8071.jpg": "/React-Final-Portfolio/static/media/nick-profile-image.baae8071.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c8356fa.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.4cdc4801.chunk.js",
+    "static/css/main.82ad46c4.chunk.css",
+    "static/js/main.d8bf8cdf.chunk.js"
+  ]
+}
