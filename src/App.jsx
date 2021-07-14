@@ -12,7 +12,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { BrowserRouter as Router, Link } from "react-router-dom";
-
+import codeBack from "../src/assets/code-background.png"
 
 import { useState } from 'react'
 
@@ -21,7 +21,9 @@ import { useState } from 'react'
 
 function App() {
 
-  
+  const [portfolioState, setToggle] = useState(false);
+  const [skillsState, setToggle2] = useState(false);
+
 
   return (
     <Router>
@@ -31,10 +33,10 @@ function App() {
             
             <Nav className="mr-auto">
                 <a href="#id-portfolio">
-                  <button type="button">Portfolio</button>   
+                  <button onClick={()=> setToggle(!portfolioState)} type="button">Portfolio</button>   
                 </a>
                 <a href="#id-works">          
-                  <button type="button">Skills</button>
+                  <button onClick={()=> setToggle2(!skillsState)} type="button">Skills</button>
                 </a>
                 
             </Nav>
@@ -46,8 +48,9 @@ function App() {
             <Col>
               <div className="sections">
                 <Intro/>
-                <Portfolio/>
-                <Skills/>
+                { ( !portfolioState && !skillsState) && <img id="heroimg" src={codeBack}></img>}
+                {portfolioState && <Portfolio/>}
+                {skillsState && <Skills/>}
                 
               </div>
             </Col>
